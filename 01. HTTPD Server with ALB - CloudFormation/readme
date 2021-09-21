@@ -1,0 +1,3 @@
+CloudFormation template
+
+Creates a ALB with Target Group, specifies the LaunchConfiguration with httpd and php on EC2 instances.
