@@ -3,7 +3,7 @@ Parameters:
   Tenancy:
       Description: 'Set up VPC Tenancy'
       Type: String
-      Default: 'deafult'
+      Default: 'default'
       AllowedValues: ['default', 'dedicated']
 Conditions:
   VPCTenancy: !Equals 
